@@ -8,14 +8,8 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/btn_ActvA"
+        android:id="@+id/btn_WidgetText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ACTV-A" />
-
-    <Button
-        android:id="@+id/btn_ActvB"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="ACTV-B" />
+        android:text="widgetText" />
 </LinearLayout>

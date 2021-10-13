@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Test1Activity">
+
+    <EditText
+        android:id="@+id/edit_Test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btn_Test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test" />
+
+    <TextView
+        android:id="@+id/tv_Test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/edit_Check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edit_No1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="0" />
+
+    <EditText
+        android:id="@+id/edit_No2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/btn_Calcu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="calcu" />
+
+    <TextView
+        android:id="@+id/tv_Result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RadioButton
+            android:id="@+id/rb_Minus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="빼기" />
+
+        <RadioButton
+            android:id="@+id/rb_Multi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="곱하기" />
+
+        <RadioButton
+            android:id="@+id/rb_Div"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="나누기" />
+    </RadioGroup>
+</LinearLayout>
